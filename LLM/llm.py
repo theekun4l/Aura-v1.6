@@ -27,6 +27,3 @@ def ask_llm(prompt):
 
     return response.choices[0].message.content
 
-
-
-print(ask_llm("Hello bro"))

@@ -3,6 +3,12 @@ from features.actions import Aura
 import time
 
 
+st.set_page_config(
+    page_title="Aura Assistant",
+    page_icon="🤖",
+    layout="wide"
+)
+
 def thinking():
     # making thinking animation
     loading = st.empty()
