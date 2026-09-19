@@ -3,4 +3,4 @@ openai
 python-dotenv
 pyjokes
 requests
-streamlit-mic-recorder
+

@@ -57,5 +57,5 @@ def Analyzer(folder):
     return {"total files": len(l),"total folders": len(folder_names),"extension": extension},{"total size":format_size(size),"extension wise size":size_ext},largest_file,smallest_file
 
 if __name__ == "__main__":
-    a,b,c,d= Analyzer("c:/users/Kunal/documents/Aura-v1.6/smart manager")
+    a,b,c,d= Analyzer("c:/users/Kunal/documents/Aura-v1.6/SmartManager")
     print(a,b,c,d)
